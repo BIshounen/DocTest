@@ -64,10 +64,3 @@ To help our users get started with Nx Meta, we provide a simple tool for you to 
    ![193BD301-70F4-4F14-86B3-0A7121F2ACdAB.jpeg](https://meta.nxvms.com/static/media/server-http-rest-api/body-619/body-9c7c6b9f-393d-424c-9bd1-06f7e6c37e22.png)
 
    </details>
-
-[© Network Optix](http://networkoptix.com/meta/)* [Downloads](https://meta.nxvms.com/download)
-
-* [Terms](https://meta.nxvms.com/content/eula)
-* [Privacy](http://www.networkoptix.com/privacy-policy/)
-* [System Calculator](http://nx.networkoptix.com/calculator/)
-* [Support](https://support.networkoptix.com/hc/en-us/community/topics/115000552988-Developer-Forum)
