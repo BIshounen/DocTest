@@ -1,0 +1,6 @@
+[book]
+authors = ["Bishounen"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Knowledge Base"
