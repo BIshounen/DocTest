@@ -36,3 +36,7 @@ On the Nx Meta Developer Knowledgebase, you will find articles on the following 
 {{customization: nx}}
 This text is intended only for NX customization
 {{/customization}}
+
+{{customization: dw}}
+This text is intended only for DW customization
+{{/customization}}
