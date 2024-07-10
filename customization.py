@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
 context, book = json.load(sys.stdin)
 
-customization = context['preprocessor']['customization']['name']
+customization = context['config']['preprocessor']['customization']['name']
 
 for section in book['sections']:
     pass
