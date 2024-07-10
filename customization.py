@@ -1,5 +1,6 @@
 import json
 import sys
+import re
 
 
 if __name__ == '__main__':
@@ -14,8 +15,15 @@ context, book = json.load(sys.stdin)
 customization = context['config']['preprocessor']['customization']['name']
 
 for section in book['sections']:
-    pass
+    content = section['Chapter']['content']
 
-book['sections'][0]['Chapter']['content'] = str(book['sections'][0])
+    pattern = "\{\{customization: nx\}\}[\s\S]*\{\{\/customization\}\}"gm
+    replacement = "\1"
+    new_content = re.sub(pattern, replacement, content)
+
+    section['Chapter']['content'] = new_content
+    
+
+# book['sections'][0]['Chapter']['content'] = str(book['sections'][0])
 
 print(json.dumps(book))
