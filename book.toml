@@ -8,3 +8,7 @@ title = "Knowledge Base"
 [output.html.fold]
 enable = true
 level = 0
+
+[preprocessor.customization]
+command = "python customization.py"
+customization = "nx"
