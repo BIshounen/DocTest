@@ -32,6 +32,6 @@ for section in book['sections']:
         iterator(chapter)
     
 
-book['sections'][0]['Chapter']['content'] = str(book['sections'])
+# book['sections'][0]['Chapter']['content'] = str(book['sections'])
 
 print(json.dumps(book))
