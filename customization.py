@@ -17,8 +17,8 @@ customization = context['config']['preprocessor']['customization']['name']
 for section in book['sections']:
     content = section['Chapter']['content']
 
-    pattern = "\{\{customization: nx\}\}[\s\S]*\{\{\/customization\}\}"gm
-    replacement = "\1"
+    pattern = "\{\{customization:\s*" + customization + "\}\}([\s\S]*)\{\{\/customization\}\}"gm
+    replacement = r"\1"
     new_content = re.sub(pattern, replacement, content)
 
     section['Chapter']['content'] = new_content
