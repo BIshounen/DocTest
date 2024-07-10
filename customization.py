@@ -5,9 +5,7 @@ import re
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
-        if sys.argv[1] == 'supports':
-            sys.stdout.write("test\n")
-            sys.stdout.write(sys.argv[2] + "\n")            
+        if sys.argv[1] == 'supports':      
             sys.exit(0)
 
 context, book = json.load(sys.stdin)
