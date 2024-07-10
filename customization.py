@@ -11,4 +11,6 @@ if __name__ == '__main__':
 
 context, book = json.load(sys.stdin)
 
-print(json.dumps(context))
+book['sections'][0]['Chapter']['content'] = context
+
+print(json.dumps(book))
