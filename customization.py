@@ -22,6 +22,6 @@ customization = context['config']['preprocessor']['customization']['name']
 #     section['Chapter']['content'] = new_content
     
 
-book['sections'][0]['Chapter']['content'] = str(book['sections'][0])
+book['sections'][0]['Chapter']['content'] = str(book['sections'])
 
 print(json.dumps(book))
