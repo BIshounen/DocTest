@@ -26,7 +26,7 @@ The Nx Meta platform makes it quick and easy to create your own re-branded produ
 
 On the Nx Meta Developer Knowledgebase, you will find articles on the following topics:
 
-* What [tools](HTTP_REST_API.md) are available to aid you in the development process
+* What [tools](./Developer%20Tools/HTTP_REST_API.md) are available to aid you in the development process
 * Which [technologies](https://meta.nxvms.com/docs/developers/knowledgebase/206) are supported by the Nx Meta platform
 * How to [integrate video analytics](https://meta.nxvms.com/docs/developers/knowledgebase/195) and metadata into your solution
 * [Examples](https://meta.nxvms.com/docs/developers/knowledgebase/249) of how you can take advantage of the Server API
