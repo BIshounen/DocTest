@@ -10,5 +10,5 @@ enable = true
 level = 0
 
 [preprocessor.customization]
-command = "python customization.py"
+command = "python3 customization.py"
 customization = "nx"
