@@ -27,7 +27,7 @@ customization = context['config']['preprocessor']['customization']['name']
 
 for section in book['sections']:
     if 'Chapter' in section:
-        chapter = section.['Chapter']
+        chapter = section['Chapter']
 
         iterator(chapter)
     
