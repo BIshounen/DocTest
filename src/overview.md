@@ -32,3 +32,7 @@ On the Nx Meta Developer Knowledgebase, you will find articles on the following 
 * [Examples](https://meta.nxvms.com/docs/developers/knowledgebase/249) of how you can take advantage of the Server API
 
 #### [Get support](https://meta.nxvms.com/docs/developers/knowledgebase/191) from our developer community.
+
+{{customization: nx}}
+This text is intended only for NX customization
+{{/customization}}
