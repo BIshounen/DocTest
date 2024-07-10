@@ -7,7 +7,10 @@ if __name__ == '__main__':
         if sys.argv[1] == 'supports':
             sys.stdout.write("test\n")
             sys.stdout.write(sys.argv[2] + "\n")
-            sys.stdout.write(sys.argv[0] + "\n")
+
+            context, book = json.load(sys.stdin)
+
+            sys.stdout.write(context + "\n")
             
             sys.exit(0)
 
