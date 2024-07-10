@@ -6,7 +6,6 @@ Version Control Systems such as Git organize changes that are made during develo
 * Release (e.g. vms_4.2, vms_5.0)
 * Patch (e.g. vms_4.2_patch)
 
-![](./538-d06704e9-b1ca-4545-88e4-a4cf1c247a48.png)
 <img src="./538-d06704e9-b1ca-4545-88e4-a4cf1c247a48.png"  width="120" height="120">
 
 The **master ** branch is the primary branch that contains the most up to date commits. **Release ** branches contain commits from the Master branch up until a point, these commits are reviewed and tested by developers. **Patch ** branches are created from Release branches and contain fixes which are released as monthly updates after the official release.
