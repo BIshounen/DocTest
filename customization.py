@@ -7,7 +7,7 @@ if __name__ == '__main__':
         if sys.argv[1] == 'supports':
             sys.stdout.write("test\n")
             sys.stdout.write(sys.argv[2] + "\n")
-            sys.stdout.wite(sys.argv[3] + "\n")
+            sys.stdout.write(sys.argv[3] + "\n")
             
             sys.exit(0)
 
