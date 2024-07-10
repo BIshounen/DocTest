@@ -13,7 +13,7 @@ def iterator(chapter):
     replacement = r"\1"
     new_content = re.sub(pattern, replacement, content)
 
-    pattern = "\{\{customization:\s*\S*\}\}([\s\S]*)\{\{\/customization\}\}"
+    pattern = "\{\{customization:\s*\S*\}\}[\s\S]*\{\{\/customization\}\}"
     replacement = ""
     new_content = re.sub(pattern, replacement, content)
 
@@ -34,8 +34,5 @@ for section in book['sections']:
         chapter = section['Chapter']
 
         iterator(chapter)
-    
-
-# book['sections'][0]['Chapter']['content'] = str(book['sections'])
 
 print(json.dumps(book))
