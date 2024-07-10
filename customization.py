@@ -11,6 +11,11 @@ if __name__ == '__main__':
 
 context, book = json.load(sys.stdin)
 
-book['sections'][0]['Chapter']['content'] = str(context)
+customization = context['preprocessor']['customization']['name']
+
+for section in book['sections']:
+    pass
+
+book['sections'][0]['Chapter']['content'] = str(book['sections'][0])
 
 print(json.dumps(book))
