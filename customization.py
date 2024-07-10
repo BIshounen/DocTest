@@ -14,7 +14,7 @@ def iterator(chapter):
     new_content = re.sub(pattern, replacement, content)
 
     pattern = "\{\{customization:\s*\S*\}\}([\s\S]*)\{\{\/customization\}\}"
-    replacement = r"\1"
+    replacement = ""
     new_content = re.sub(pattern, replacement, content)
 
     chapter['content'] = new_content
