@@ -508,13 +508,6 @@ ul#searchresults span.teaser em {
     background: #000;
 }
 
-.chapter li.active {
-    display: flex;
-    padding: 0;
-    text-decoration: none;
-    color: var(--sidebar-fg);
-}
-
 .chapter li a:hover {
     color: var(--sidebar-active);
 }
