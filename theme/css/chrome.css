@@ -508,7 +508,7 @@ ul#searchresults span.teaser em {
     background: #000;
 }
 
-.chapter li.acitve {
+.chapter li.active {
     display: flex;
     padding: 0;
     text-decoration: none;
