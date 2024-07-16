@@ -502,7 +502,13 @@ ul#searchresults span.teaser em {
     background: #000;
 }
 
-.chapter li a {
+.chapter li:hover {
+    display: flex;
+    align-self: stretch;
+    background: #000;
+}
+
+.chapter li.acitve {
     display: flex;
     padding: 0;
     text-decoration: none;
@@ -515,7 +521,6 @@ ul#searchresults span.teaser em {
 
 .chapter li a.active {
     color: var(--sidebar-active);
-    background: #000;
 }
 
 .chapter li > a.toggle {
