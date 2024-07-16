@@ -190,6 +190,10 @@
     --color-scheme: dark;
 }
 
+.new {
+    --sidebar-bg: #F0F2F4;
+}
+
 .rust {
     --bg: hsl(60, 9%, 87%);
     --fg: #262625;
