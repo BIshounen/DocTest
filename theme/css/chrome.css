@@ -495,17 +495,22 @@ ul#searchresults span.teaser em {
     align-self: stretch;
     color: var(--sidebar-non-existant);
 }
+
+.chapter li:hover {
+    display: flex;
+    align-self: stretch;
+    background: #000;
+}
+
 .chapter li a {
     display: flex;
     padding: 0;
     text-decoration: none;
     color: var(--sidebar-fg);
-    align-self: stretch;
 }
 
 .chapter li a:hover {
     color: var(--sidebar-active);
-    background: #000;
 }
 
 .chapter li a.active {
