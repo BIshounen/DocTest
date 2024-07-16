@@ -106,7 +106,7 @@
     --bg: hsl(0, 0%, 100%);
     --fg: hsl(0, 0%, 0%);
 
-    --sidebar-bg: #fafafa;
+    --sidebar-bg: #F0F2F4;
     --sidebar-fg: hsl(0, 0%, 0%);
     --sidebar-non-existant: #aaaaaa;
     --sidebar-active: #1f1fff;
@@ -188,10 +188,6 @@
     --search-mark-bg: #a2cff5;
 
     --color-scheme: dark;
-}
-
-.new {
-    --sidebar-bg: #F0F2F4;
 }
 
 .rust {
