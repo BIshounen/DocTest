@@ -496,7 +496,7 @@ ul#searchresults span.teaser em {
     color: var(--sidebar-non-existant);
 }
 .chapter li a {
-    display: block;
+    display: flex;
     padding: 0;
     text-decoration: none;
     color: var(--sidebar-fg);
