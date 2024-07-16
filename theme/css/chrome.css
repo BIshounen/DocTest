@@ -492,20 +492,13 @@ ul#searchresults span.teaser em {
 
 .chapter li {
     display: flex;
-    align-self: stretch;
     color: var(--sidebar-non-existant);
 }
-
-.chapter li:hover {
-    display: flex;
-    align-self: stretch;
-    background: #000;
-}
-
-.chapter li:hover {
-    display: flex;
-    align-self: stretch;
-    background: #000;
+.chapter li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    color: var(--sidebar-fg);
 }
 
 .chapter li a:hover {
