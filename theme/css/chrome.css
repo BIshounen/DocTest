@@ -508,6 +508,7 @@ ul#searchresults span.teaser em {
 
 .chapter li a.active {
     color: var(--sidebar-active);
+    background: #000;
 }
 
 .chapter li > a.toggle {
