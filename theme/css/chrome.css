@@ -34,7 +34,7 @@ a > .hljs {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--bg);
+    background-color: red;/* var(--bg); */
     border-block-end-color: var(--bg);
     border-block-end-width: 1px;
     border-block-end-style: solid;
