@@ -492,6 +492,7 @@ ul#searchresults span.teaser em {
 
 .chapter li {
     display: flex;
+    align-self: stretch;
     color: var(--sidebar-non-existant);
 }
 .chapter li a {
