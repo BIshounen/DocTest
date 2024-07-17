@@ -507,6 +507,7 @@ ul#searchresults span.teaser em {
 
 .chapter li a.active {
     color: var(--sidebar-active);
+    font-weight: bold;
 }
 
 .chapter li > a.toggle {
