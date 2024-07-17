@@ -9,8 +9,12 @@ def iterator(chapter):
 
     content = chapter.get('content','')
 
-    pattern = "\{\{customization:\s*" + customization + "\}\}([\s\S]*?)\{\{\/customization\}\}"
-    replacement = "test"
+    pattern = "\{\{children\}\}"
+    replacement = ""
+
+    for sub in chapter.get('sub_items', []):
+        replacement += sub.get('name', 'Untitled') + "\n"
+
     new_content = re.sub(pattern, replacement, content)
 
 
