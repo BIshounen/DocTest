@@ -12,3 +12,6 @@ level = 0
 [preprocessor.customization]
 command = "python3 customization.py"
 name = "dw"
+
+[preprocessor.children]
+command = "python3 children.py"
