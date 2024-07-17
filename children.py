@@ -13,7 +13,7 @@ def iterator(chapter):
     replacement = ""
 
     for sub in chapter.get('sub_items', []):
-        replacement += str(sub.get('Chapter', None))
+        replacement += str(sub.get('Chapter', None)) + " "
 
     new_content = re.sub(pattern, replacement, content)
 
