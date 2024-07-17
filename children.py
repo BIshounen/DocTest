@@ -34,6 +34,6 @@ context, book = json.load(sys.stdin)
 
 #         iterator(chapter)
 
-# print(json.dumps(book))
+book['sections'][0]['content'] = book
 
-print(str(book))
+print(json.dumps(book))
