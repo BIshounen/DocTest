@@ -14,7 +14,7 @@ def iterator(chapter):
 
     for sub in chapter.get('sub_items', []):
         if "Chapter" in sub:
-            replacement += sub['Chapter'].get("name", 'Untitled') + "\n"
+            replacement += sub['Chapter'].get("name", 'Untitled') + "\n\n"
 
     new_content = re.sub(pattern, replacement, content)
 
