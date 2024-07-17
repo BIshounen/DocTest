@@ -14,7 +14,7 @@ def iterator(chapter):
 
     for sub in chapter.get('sub_items', []):
         if "Chapter" in sub:
-            path = sub['Chapter'].get('source_path', '')
+            path = sub['Chapter'].get('path', '')
             path = re.sub(" ", "%20", path)
             replacement += "- [" + sub['Chapter'].get("name", 'Untitled') + "](./" + path + ")" +  "\n"
 
