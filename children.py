@@ -13,7 +13,8 @@ def iterator(chapter):
     replacement = ""
 
     for sub in chapter.get('sub_items', []):
-        replacement += str(sub.get('Chapter', None)) + " "
+        if "Chapter" in sub:
+            replacement += sub['Chapter'].get("name", 'Untitled')
 
     new_content = re.sub(pattern, replacement, content)
 
@@ -28,11 +29,12 @@ if __name__ == '__main__':
 
 context, book = json.load(sys.stdin)
 
-# for section in book['sections']:
-#     if 'Chapter' in section:
-#         chapter = section['Chapter']
+for section in book['sections']:
+    if 'Chapter' in section:
+        chapter = section['Chapter']
 
-#         iterator(chapter)
+        iterator(chapter)
 
-book['sections'][0]['Chapter']['content'] = str(book)
+# book['sections'][0]['Chapter']['content'] = str(book)
+
 print(json.dumps(book))
