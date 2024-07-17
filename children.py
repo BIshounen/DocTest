@@ -1,6 +1,6 @@
 import json
 import sys
-import regex as re
+import re
 
 
 def iterator(chapter):
@@ -28,10 +28,12 @@ if __name__ == '__main__':
 
 context, book = json.load(sys.stdin)
 
-for section in book['sections']:
-    if 'Chapter' in section:
-        chapter = section['Chapter']
+# for section in book['sections']:
+#     if 'Chapter' in section:
+#         chapter = section['Chapter']
 
-        iterator(chapter)
+#         iterator(chapter)
 
-print(json.dumps(book))
+# print(json.dumps(book))
+
+print(str(book))
