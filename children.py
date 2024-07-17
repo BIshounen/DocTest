@@ -1,6 +1,6 @@
 import json
 import sys
-import re
+import regex as re
 
 
 def iterator(chapter):
