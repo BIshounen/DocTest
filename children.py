@@ -9,9 +9,10 @@ def iterator(chapter):
 
     content = chapter.get('content','')
 
-    pattern = "\{\{children\}\}"
+    pattern = "\{\{customization:\s*" + customization + "\}\}([\s\S]*?)\{\{\/customization\}\}"
     replacement = "test"
     new_content = re.sub(pattern, replacement, content)
+
 
     chapter['content'] = new_content
 
@@ -20,6 +21,8 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         if sys.argv[1] == 'supports':
             sys.exit(0)
+
+context, book = json.load(sys.stdin)
 
 for section in book['sections']:
     if 'Chapter' in section:
